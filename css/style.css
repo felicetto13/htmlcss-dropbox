@@ -5,6 +5,7 @@
 }
 html {
     font-family: sans-serif;
+    font-size: .8rem;
 }
 
 :root {
@@ -28,18 +29,28 @@ header {
     left: 0;
     right: 0;
     background: #fff;
+    z-index: 999;
+    box-shadow: 1px 1px 12px;
 }
 main {
-    padding-top: 70px;
+    padding-top: 60px;
 }
 a {
     padding: .5rem .5rem;
-    font-size: .8rem;
     text-decoration: none;
     color: var(--black-color);
 }
+img {
+    width: 100%;
+}
 ul {
     list-style: none;
+}
+h1 {
+    font-size: 5rem;
+}
+a, p {
+    line-height: 1.25rem;
 }
 /* class standard styles */
 
@@ -91,6 +102,11 @@ ul {
     min-width: 40px;
     text-align: center;
     cursor: pointer;
+    padding:.5rem 1rem;
+}
+.btn-lg {
+    padding: 1rem;
+    font-size: 1rem;
 }
 .btn-blue {
     background-color: var(--btn-color);
@@ -118,10 +134,30 @@ ul {
     margin: 0 auto;
 }
 .col-sm {
-    max-width: 40%;
+    max-width: 30%;
     width: 100%;
 }
 .col-lg {
-    max-width: 60%;
+    max-width: 70%;
     width: 100%;
+}
+.gap-1 {
+    gap: 1rem;
+}
+.gap-2 {
+    gap: 2rem;
+}
+.position-relative {
+    position: relative;
+}
+.relative-top {
+    top: 10rem;
+}
+.relative-bottom {
+    bottom: 9rem;
+}
+.fa-arrow-down {
+    font-size: 4rem;
+    bottom: 9rem;
+    left: 0;
 }
