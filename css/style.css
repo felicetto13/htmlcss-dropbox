@@ -112,7 +112,7 @@ ul {
 .jumbotron {
     background-color: var(--jumbotron-bg);
 }
-.head-container {
+.container-lg {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
