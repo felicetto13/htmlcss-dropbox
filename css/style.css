@@ -9,16 +9,16 @@ html {
 
 :root {
     --btn-color: #0061ff;
-    --jumbotron-bg:#b5d0e7;
-    --red-color:#ff0302;
+    --jumbotron-bg:#b3d0e7;
+    --red-color:#d5001f;
     --black-color: #000000;
-    --brown-color:rgb(82, 52, 9);
-    --orange-color: rgb(255, 140, 0);
-    --lemon-color:rgb(216, 216, 20);
-    --azure-color: rgb(97, 160, 155);
-    --blue-color:rgb(26, 98, 242);
-    --greenwater-color: rgb(18, 133, 112);
-    --green-color:rgb(91, 155, 65);
+    --brown-color:#61092b;
+    --orange-color: #ff1b1c;
+    --lemon-color:#ffd72f;
+    --azure-color: #0093ce;
+    --blue-color:#0e2381;
+    --gray-color: #f5f5f5;
+    --green-color:#a2d39b;
 }
 
 /* tags selector */
