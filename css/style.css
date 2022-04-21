@@ -49,6 +49,12 @@ ul {
 h1 {
     font-size: 5rem;
 }
+h2 {
+    font-size: 2.5rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
 a, p {
     line-height: 1.25rem;
 }
@@ -79,6 +85,9 @@ a, p {
     padding-left: .5rem;
     padding-right: .5rem;
 }
+.padding-top {
+    padding-top: 8rem;
+}
 .flex {
     display: flex;
 }
@@ -95,7 +104,7 @@ a, p {
     align-self: center;
 }
 .col {
-    min-height: 50px;
+    max-width: calc((100%-2rem)/3);
 }
 .btn {
     font-size: .9rem;
@@ -143,9 +152,11 @@ a, p {
 }
 .gap-1 {
     gap: 1rem;
+    --gap1:1rem;
 }
 .gap-2 {
     gap: 2rem;
+    --gap2: 2rem;
 }
 .position-relative {
     position: relative;
@@ -160,4 +171,16 @@ a, p {
     font-size: 4rem;
     bottom: 9rem;
     left: 0;
+}
+.flex-grow1{
+    flex-grow: 1;
+}
+.border-card {
+    border: 1px solid #a8a8a8;
+}
+.border-card-bottom {
+    border-bottom: 1px solid #a8a8a8;
+}
+.text-center {
+    text-align: center;
 }
