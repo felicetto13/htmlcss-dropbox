@@ -213,6 +213,10 @@ a, p {
     flex-basis: calc((100% - (var(--gap2)*2))/3);
     flex-grow: 1;
 }
+.flex-grow0{
+    flex-basis: 0;
+    flex-grow: 1;
+}
 .border-card {
     border: 1px solid #a8a8a8;
 }
@@ -257,4 +261,21 @@ a, p {
 }
 .fa-check {
     color: #0061ff;
+}
+.square {
+    width: 50%;
+    height: calc(100vw / 6);
+}
+.square img {
+    width: 100%;
+    max-width: 50%;
+}
+.img-w-50 {
+    width: 50%;
+}
+.ratio-square {
+    aspect-ratio: 1/1;
+}
+.overflow {
+    overflow: auto;
 }
