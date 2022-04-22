@@ -54,6 +54,7 @@ h2 {
 }
 h3 {
     font-size: 1.5rem;
+    line-height: 2rem;
 }
 h6{
     font-size: 1.1rem;
@@ -73,6 +74,9 @@ a, p {
     width: 100%;
     margin: 0 auto;
 }
+
+/* padding and margin */
+
 .padding-tb{
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -103,6 +107,16 @@ a, p {
 .padding-bottom-xs{
     padding-bottom: .75rem;
 }
+.margin-bottom{
+    margin-bottom: 2rem;
+}
+.margin-tb3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* end padding and margin */
+
 .flex {
     display: flex;
 }
@@ -146,6 +160,7 @@ a, p {
 .btn-light {
     background-color: white;
     color: var(--black-color);
+    border: 1px solid var(--black-color);
 }
 /* header style */
 
