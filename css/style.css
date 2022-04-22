@@ -55,6 +55,10 @@ h2 {
 h3 {
     font-size: 1.5rem;
 }
+h6{
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
 a, p {
     line-height: 1.25rem;
 }
@@ -77,6 +81,10 @@ a, p {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+.padding-lr2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 .padding-lr {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -87,6 +95,9 @@ a, p {
 }
 .padding-top {
     padding-top: 8rem;
+}
+.padding-bottom-xs{
+    padding-bottom: .75rem;
 }
 .flex {
     display: flex;
@@ -104,7 +115,7 @@ a, p {
     align-self: center;
 }
 .col {
-    max-width: calc((100%-2rem)/3);
+    min-height: 50px;
 }
 .btn {
     font-size: .9rem;
@@ -155,7 +166,7 @@ a, p {
     --gap1:1rem;
 }
 .gap-2 {
-    gap: 2rem;
+    gap: 3.5rem;
     --gap2: 2rem;
 }
 .position-relative {
@@ -173,7 +184,7 @@ a, p {
     left: 0;
 }
 .flex-grow1{
-    flex-grow: 1;
+    flex-basis: calc((100% - var(--gap2))/3);
 }
 .border-card {
     border: 1px solid #a8a8a8;
@@ -183,4 +194,40 @@ a, p {
 }
 .text-center {
     text-align: center;
+}
+.card {
+    min-height: 500px;
+}
+
+.price, .price-period {
+    line-height: 2rem;
+}
+.price-row {
+    padding-bottom: 2rem;
+}
+.price {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.price-period {
+    font-size: .9rem;
+    color: gray;
+}
+.description {
+    line-height: 2rem;
+    min-height: 185px;
+}
+.button-card {
+    padding: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.link-business-section{
+    text-decoration: underline;
+    color: #0061ff;
+}
+.hr-small{
+    width: 30%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
