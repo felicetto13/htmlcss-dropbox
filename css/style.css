@@ -57,7 +57,7 @@ h3 {
 }
 h6{
     font-size: 1.1rem;
-    line-height: 2rem;
+    line-height: 2.5rem;
 }
 a, p {
     line-height: 1.25rem;
@@ -76,6 +76,10 @@ a, p {
 .padding-tb{
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+.padding-tb3{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 .padding-tb-small{
     padding-top: 1rem;
@@ -102,6 +106,9 @@ a, p {
 .flex {
     display: flex;
 }
+.wrapping {
+    flex-wrap: wrap;
+}
 .space-between {
     justify-content: space-between;
 }
@@ -126,6 +133,10 @@ a, p {
 }
 .btn-lg {
     padding: 1rem;
+    font-size: 1rem;
+}
+.btn-xl {
+    padding: 1rem 2rem;
     font-size: 1rem;
 }
 .btn-blue {
@@ -167,7 +178,7 @@ a, p {
 }
 .gap-2 {
     gap: 3.5rem;
-    --gap2: 2rem;
+    --gap2: 3.5rem;
 }
 .position-relative {
     position: relative;
@@ -184,7 +195,8 @@ a, p {
     left: 0;
 }
 .flex-grow1{
-    flex-basis: calc((100% - var(--gap2))/3);
+    flex-basis: calc((100% - (var(--gap2)*2))/3);
+    flex-grow: 1;
 }
 .border-card {
     border: 1px solid #a8a8a8;
@@ -194,9 +206,6 @@ a, p {
 }
 .text-center {
     text-align: center;
-}
-.card {
-    min-height: 500px;
 }
 
 .price, .price-period {
@@ -230,4 +239,7 @@ a, p {
     width: 30%;
     margin-top: 2rem;
     margin-bottom: 3rem;
+}
+.fa-check {
+    color: #0061ff;
 }
