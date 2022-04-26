@@ -59,7 +59,7 @@ header {
     right: 0;
     background: #fff;
     z-index: 999;
-    box-shadow: 1px 1px 12px;
+    box-shadow: 1px 1px 12px rgba(0,0,0,0.3);
 }
 main {
     padding-top: 60px;
