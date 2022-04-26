@@ -1,0 +1,14 @@
+a:hover {
+    text-decoration: underline;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.btn-blue:hover {
+    background: #2075fc;
+}
+.btn-light:hover {
+    text-shadow: 1px 1px 6px gray;
+}
