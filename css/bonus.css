@@ -12,3 +12,42 @@ a:hover {
 .btn-light:hover {
     text-shadow: 1px 1px 6px gray;
 }
+/* .description-square div{
+    display: none;
+} */
+/* .description-square  */#d-designt,
+.description-square #d-arizona,
+.description-square #d-florida,
+.description-square #d-topps,
+.description-square #d-wbr,
+.description-square #d-hc,
+.description-square #d-lp,
+.description-square #d-channel {
+    display: none;
+} 
+
+#square-designt img:hover #d-designt,
+#square-arizona:hover .description-square #d-arizona,
+#square-florida:hover .description-square #d-florida,
+#square-topps:hover .description-square #d-topps,
+#square-wbr:hover .description-square #d-wbr,
+#square-hc:hover .description-square #d-hc,
+#square-lp:hover .description-square #d-lp,
+#square-channel:hover .description-square #d-channel {
+    display: block;
+} 
+
+.p-accordinion {
+    display:none;
+}
+.accordinion {
+    width: 100%;
+    cursor: pointer;
+}
+#accordinion1:target .p-accordinion#a1, #accordinion2:target .p-accordinion#a2, #accordinion3:target .p-accordinion#a3 {
+    display: block;
+}
+/* #accordinion1:hover span,#accordinion2:hover span,#accordinion3:hover span {
+    display: block;
+}
+ */
